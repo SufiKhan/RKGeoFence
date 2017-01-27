@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA8F7731E3A3EA4007641A4 /* MapViewHB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8F7721E3A3EA4007641A4 /* MapViewHB.swift */; };
+		4CA8F7751E3A4F36007641A4 /* hub2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CA8F7741E3A4F36007641A4 /* hub2.json */; };
+		4CB8B7491E386ECF00AAC03E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8B7481E386ECF00AAC03E /* AppDelegate.swift */; };
+		4CB8B74B1E386ECF00AAC03E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8B74A1E386ECF00AAC03E /* ViewController.swift */; };
+		4CB8B74E1E386ECF00AAC03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB8B74C1E386ECF00AAC03E /* Main.storyboard */; };
+		4CB8B7501E386ECF00AAC03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB8B74F1E386ECF00AAC03E /* Assets.xcassets */; };
+		4CB8B7531E386ECF00AAC03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB8B7511E386ECF00AAC03E /* LaunchScreen.storyboard */; };
+		4CB8B75E1E386ECF00AAC03E /* RKGeoFenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8B75D1E386ECF00AAC03E /* RKGeoFenceTests.swift */; };
+		4CB8B7691E386ECF00AAC03E /* RKGeoFenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8B7681E386ECF00AAC03E /* RKGeoFenceUITests.swift */; };
+		4CB8B7791E38707200AAC03E /* hub.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CB8B7781E38707200AAC03E /* hub.json */; };
+		4CB8B77C1E3878C500AAC03E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8B77B1E3878C500AAC03E /* Constants.swift */; };
+		4CB8B7801E387EE400AAC03E /* HUBCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8B77F1E387EE400AAC03E /* HUBCoordinates.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB8B75A1E386ECF00AAC03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB8B73D1E386ECF00AAC03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB8B7441E386ECF00AAC03E;
+			remoteInfo = RKGeoFence;
+		};
+		4CB8B7651E386ECF00AAC03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB8B73D1E386ECF00AAC03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB8B7441E386ECF00AAC03E;
+			remoteInfo = RKGeoFence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CA8F7721E3A3EA4007641A4 /* MapViewHB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewHB.swift; sourceTree = "<group>"; };
+		4CA8F7741E3A4F36007641A4 /* hub2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hub2.json; sourceTree = "<group>"; };
+		4CB8B7451E386ECF00AAC03E /* RKGeoFence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKGeoFence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB8B7481E386ECF00AAC03E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB8B74A1E386ECF00AAC03E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CB8B74D1E386ECF00AAC03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB8B74F1E386ECF00AAC03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB8B7521E386ECF00AAC03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CB8B7541E386ECF00AAC03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB8B7591E386ECF00AAC03E /* RKGeoFenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKGeoFenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB8B75D1E386ECF00AAC03E /* RKGeoFenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKGeoFenceTests.swift; sourceTree = "<group>"; };
+		4CB8B75F1E386ECF00AAC03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB8B7641E386ECF00AAC03E /* RKGeoFenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKGeoFenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB8B7681E386ECF00AAC03E /* RKGeoFenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKGeoFenceUITests.swift; sourceTree = "<group>"; };
+		4CB8B76A1E386ECF00AAC03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CB8B7781E38707200AAC03E /* hub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hub.json; sourceTree = "<group>"; };
+		4CB8B77B1E3878C500AAC03E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4CB8B77F1E387EE400AAC03E /* HUBCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUBCoordinates.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB8B7421E386ECF00AAC03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB8B7561E386ECF00AAC03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB8B7611E386ECF00AAC03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAD509C1E3894E500E8773E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8B74A1E386ECF00AAC03E /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4CB8B73C1E386ECF00AAC03E = {
+			isa = PBXGroup;
+			children = (
+				4CB8B7471E386ECF00AAC03E /* RKGeoFence */,
+				4CB8B75C1E386ECF00AAC03E /* RKGeoFenceTests */,
+				4CB8B7671E386ECF00AAC03E /* RKGeoFenceUITests */,
+				4CB8B7461E386ECF00AAC03E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB8B7461E386ECF00AAC03E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8B7451E386ECF00AAC03E /* RKGeoFence.app */,
+				4CB8B7591E386ECF00AAC03E /* RKGeoFenceTests.xctest */,
+				4CB8B7641E386ECF00AAC03E /* RKGeoFenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB8B7471E386ECF00AAC03E /* RKGeoFence */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8B77B1E3878C500AAC03E /* Constants.swift */,
+				4CB8B7481E386ECF00AAC03E /* AppDelegate.swift */,
+				4CB8B77A1E3878AD00AAC03E /* Utility */,
+				4CAD509C1E3894E500E8773E /* ViewController */,
+				4CB8B7771E38706400AAC03E /* UI */,
+				4CB8B74F1E386ECF00AAC03E /* Assets.xcassets */,
+				4CB8B7511E386ECF00AAC03E /* LaunchScreen.storyboard */,
+				4CB8B7541E386ECF00AAC03E /* Info.plist */,
+			);
+			path = RKGeoFence;
+			sourceTree = "<group>";
+		};
+		4CB8B75C1E386ECF00AAC03E /* RKGeoFenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8B75D1E386ECF00AAC03E /* RKGeoFenceTests.swift */,
+				4CB8B75F1E386ECF00AAC03E /* Info.plist */,
+			);
+			path = RKGeoFenceTests;
+			sourceTree = "<group>";
+		};
+		4CB8B7671E386ECF00AAC03E /* RKGeoFenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8B7681E386ECF00AAC03E /* RKGeoFenceUITests.swift */,
+				4CB8B76A1E386ECF00AAC03E /* Info.plist */,
+			);
+			path = RKGeoFenceUITests;
+			sourceTree = "<group>";
+		};
+		4CB8B7771E38706400AAC03E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4CA8F7741E3A4F36007641A4 /* hub2.json */,
+				4CB8B74C1E386ECF00AAC03E /* Main.storyboard */,
+				4CB8B7781E38707200AAC03E /* hub.json */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		4CB8B77A1E3878AD00AAC03E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4CB8B77F1E387EE400AAC03E /* HUBCoordinates.swift */,
+				4CA8F7721E3A3EA4007641A4 /* MapViewHB.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB8B7441E386ECF00AAC03E /* RKGeoFence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB8B76D1E386ECF00AAC03E /* Build configuration list for PBXNativeTarget "RKGeoFence" */;
+			buildPhases = (
+				4CB8B7411E386ECF00AAC03E /* Sources */,
+				4CB8B7421E386ECF00AAC03E /* Frameworks */,
+				4CB8B7431E386ECF00AAC03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKGeoFence;
+			productName = RKGeoFence;
+			productReference = 4CB8B7451E386ECF00AAC03E /* RKGeoFence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB8B7581E386ECF00AAC03E /* RKGeoFenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB8B7701E386ECF00AAC03E /* Build configuration list for PBXNativeTarget "RKGeoFenceTests" */;
+			buildPhases = (
+				4CB8B7551E386ECF00AAC03E /* Sources */,
+				4CB8B7561E386ECF00AAC03E /* Frameworks */,
+				4CB8B7571E386ECF00AAC03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB8B75B1E386ECF00AAC03E /* PBXTargetDependency */,
+			);
+			name = RKGeoFenceTests;
+			productName = RKGeoFenceTests;
+			productReference = 4CB8B7591E386ECF00AAC03E /* RKGeoFenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CB8B7631E386ECF00AAC03E /* RKGeoFenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB8B7731E386ECF00AAC03E /* Build configuration list for PBXNativeTarget "RKGeoFenceUITests" */;
+			buildPhases = (
+				4CB8B7601E386ECF00AAC03E /* Sources */,
+				4CB8B7611E386ECF00AAC03E /* Frameworks */,
+				4CB8B7621E386ECF00AAC03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB8B7661E386ECF00AAC03E /* PBXTargetDependency */,
+			);
+			name = RKGeoFenceUITests;
+			productName = RKGeoFenceUITests;
+			productReference = 4CB8B7641E386ECF00AAC03E /* RKGeoFenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB8B73D1E386ECF00AAC03E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					4CB8B7441E386ECF00AAC03E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = E5KWXVJZVZ;
+						ProvisioningStyle = Automatic;
+					};
+					4CB8B7581E386ECF00AAC03E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D6Q362E7B4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CB8B7441E386ECF00AAC03E;
+					};
+					4CB8B7631E386ECF00AAC03E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D6Q362E7B4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4CB8B7441E386ECF00AAC03E;
+					};
+				};
+			};
+			buildConfigurationList = 4CB8B7401E386ECF00AAC03E /* Build configuration list for PBXProject "RKGeoFence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB8B73C1E386ECF00AAC03E;
+			productRefGroup = 4CB8B7461E386ECF00AAC03E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB8B7441E386ECF00AAC03E /* RKGeoFence */,
+				4CB8B7581E386ECF00AAC03E /* RKGeoFenceTests */,
+				4CB8B7631E386ECF00AAC03E /* RKGeoFenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB8B7431E386ECF00AAC03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA8F7751E3A4F36007641A4 /* hub2.json in Resources */,
+				4CB8B7531E386ECF00AAC03E /* LaunchScreen.storyboard in Resources */,
+				4CB8B7501E386ECF00AAC03E /* Assets.xcassets in Resources */,
+				4CB8B74E1E386ECF00AAC03E /* Main.storyboard in Resources */,
+				4CB8B7791E38707200AAC03E /* hub.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB8B7571E386ECF00AAC03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB8B7621E386ECF00AAC03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB8B7411E386ECF00AAC03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB8B74B1E386ECF00AAC03E /* ViewController.swift in Sources */,
+				4CB8B7491E386ECF00AAC03E /* AppDelegate.swift in Sources */,
+				4CB8B77C1E3878C500AAC03E /* Constants.swift in Sources */,
+				4CB8B7801E387EE400AAC03E /* HUBCoordinates.swift in Sources */,
+				4CA8F7731E3A3EA4007641A4 /* MapViewHB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB8B7551E386ECF00AAC03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB8B75E1E386ECF00AAC03E /* RKGeoFenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB8B7601E386ECF00AAC03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB8B7691E386ECF00AAC03E /* RKGeoFenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB8B75B1E386ECF00AAC03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB8B7441E386ECF00AAC03E /* RKGeoFence */;
+			targetProxy = 4CB8B75A1E386ECF00AAC03E /* PBXContainerItemProxy */;
+		};
+		4CB8B7661E386ECF00AAC03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB8B7441E386ECF00AAC03E /* RKGeoFence */;
+			targetProxy = 4CB8B7651E386ECF00AAC03E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CB8B74C1E386ECF00AAC03E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB8B74D1E386ECF00AAC03E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB8B7511E386ECF00AAC03E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB8B7521E386ECF00AAC03E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB8B76B1E386ECF00AAC03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB8B76C1E386ECF00AAC03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB8B76E1E386ECF00AAC03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E5KWXVJZVZ;
+				INFOPLIST_FILE = RKGeoFence/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sierra-med-it.Care-Network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4CB8B76F1E386ECF00AAC03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E5KWXVJZVZ;
+				INFOPLIST_FILE = RKGeoFence/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sierra-med-it.Care-Network";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4CB8B7711E386ECF00AAC03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D6Q362E7B4;
+				INFOPLIST_FILE = RKGeoFenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RKGeoFenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKGeoFence.app/RKGeoFence";
+			};
+			name = Debug;
+		};
+		4CB8B7721E386ECF00AAC03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D6Q362E7B4;
+				INFOPLIST_FILE = RKGeoFenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RKGeoFenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKGeoFence.app/RKGeoFence";
+			};
+			name = Release;
+		};
+		4CB8B7741E386ECF00AAC03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D6Q362E7B4;
+				INFOPLIST_FILE = RKGeoFenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RKGeoFenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RKGeoFence;
+			};
+			name = Debug;
+		};
+		4CB8B7751E386ECF00AAC03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D6Q362E7B4;
+				INFOPLIST_FILE = RKGeoFenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RKGeoFenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RKGeoFence;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB8B7401E386ECF00AAC03E /* Build configuration list for PBXProject "RKGeoFence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB8B76B1E386ECF00AAC03E /* Debug */,
+				4CB8B76C1E386ECF00AAC03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB8B76D1E386ECF00AAC03E /* Build configuration list for PBXNativeTarget "RKGeoFence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB8B76E1E386ECF00AAC03E /* Debug */,
+				4CB8B76F1E386ECF00AAC03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB8B7701E386ECF00AAC03E /* Build configuration list for PBXNativeTarget "RKGeoFenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB8B7711E386ECF00AAC03E /* Debug */,
+				4CB8B7721E386ECF00AAC03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB8B7731E386ECF00AAC03E /* Build configuration list for PBXNativeTarget "RKGeoFenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB8B7741E386ECF00AAC03E /* Debug */,
+				4CB8B7751E386ECF00AAC03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB8B73D1E386ECF00AAC03E /* Project object */;
+}
