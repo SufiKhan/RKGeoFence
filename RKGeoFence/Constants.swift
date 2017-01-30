@@ -16,7 +16,7 @@ struct Constants {
     static let LAT = "lat"
     static let LNG = "lon"
     
-    static let ACCURACY = 0.0
+    static let ACCURACY = 30.0
     
     static let BOUNDS = "results.bounds"
     static let MIN_LAT = "minlat"
@@ -25,7 +25,7 @@ struct Constants {
     static let MAX_LNG = "maxlon"
     
     static let SPAN_LEVEL = 0.01
-    static let OUTSIDE =  "OTSIDE"
+    static let OUTSIDE =  "OUTSIDE"
     static let INSIDE =  "INSIDE"
     static let OK =  "OK"
     static let OUTSIDE_HUB_ALERT = "You are outside the defined accuracy of the hub."

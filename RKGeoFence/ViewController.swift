@@ -32,6 +32,7 @@ class ViewController: UIViewController,MKMapViewDelegate{
             locationManager.requestWhenInUseAuthorization()
             locationManager.startUpdatingLocation()
             locationManager.distanceFilter = 50
+//            locationManager.desiredAccuracy = Constants.ACCURACY
             mapViewHB.showsUserLocation = true
     }
     
@@ -80,6 +81,6 @@ extension ViewController: CLLocationManagerDelegate{
         }else{
             self.showAlert(_title: Constants.OUTSIDE,msg: Constants.OUTSIDE_HUB_ALERT)
         }
-        manager.stopUpdatingLocation()
+//        manager.stopUpdatingLocation()
     }
 }
